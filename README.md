@@ -20,6 +20,8 @@ Implementar y escalar automáticamente una aplicación simple utilizando Kuberne
 
 **Resultado esperado:**
 
-Una aplicación web funcional que permita a los usuarios ingresar su enlace de perfil de LinkedIn y recibir un análisis detallado de su perfil, incluyendo una puntuación global y puntuaciones por secciones, así como gráficos y visualizaciones.
+Una aplicación simple alojada en un clúster de Kubernetes en AWS que escala automáticamente en función del tráfico y la carga de trabajo. La aplicación estará accesible a través de un balanceador de carga, y se observará cómo Kubernetes crea y destruye contenedores en función de la carga de trabajo y el tráfico.
 
 ***
+
+![underconstruction_ccalvop](https://user-images.githubusercontent.com/126183973/234037995-bbe36371-8cc2-47a6-9c4f-b2311c57018d.jpg)
