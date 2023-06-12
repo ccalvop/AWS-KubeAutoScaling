@@ -24,4 +24,37 @@ Una aplicación simple alojada en un clúster de Kubernetes en AWS que escala au
 
 ***
 
+**Resumen de los pasos a seguir:**
+
+**1**. Creación de un clúster de Kubernetes en Amazon EKS:
+
+- Crear un clúster de Amazon EKS en la consola de AWS.
+- Configurar la línea de comandos de Kubernetes (kubectl) para conectarse al clúster.
+
+**2**. Desarrollo de la aplicación:
+
+- Crear una aplicación simple (API REST o servidor web) que devuelva información básica.
+- Escribir un Dockerfile para construir la imagen del contenedor de la aplicación.
+
+**3**. Creación de un archivo de manifiesto de Kubernetes:
+
+- Crear un archivo YAML para describir los recursos de Kubernetes necesarios, como despliegues y servicios.
+- Configurar la escala automática de los contenedores en función de la carga de trabajo y el tráfico.
+
+**4**. Implementación de la aplicación en el clúster de Kubernetes:
+
+- Construir la imagen del contenedor utilizando el Dockerfile.
+- Aplicar el archivo de manifiesto de Kubernetes para desplegar la aplicación en el clúster.
+
+**5**. Configuración del balanceador de carga:
+
+- Crear un balanceador de carga en AWS para distribuir el tráfico entre las instancias de la aplicación.
+
+**6**. Pruebas y observación del escalado automático:
+
+- Generar tráfico y carga de trabajo en la aplicación para observar cómo Kubernetes crea y destruye contenedores según sea necesario.
+
+
+
+***
 ![underconstruction_ccalvop](https://user-images.githubusercontent.com/126183973/234037995-bbe36371-8cc2-47a6-9c4f-b2311c57018d.jpg)
