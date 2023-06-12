@@ -22,11 +22,11 @@ Implementar y escalar automáticamente una aplicación simple utilizando Kuberne
 
 Una aplicación simple alojada en un clúster de Kubernetes en AWS que escala automáticamente en función del tráfico y la carga de trabajo. La aplicación estará accesible a través de un balanceador de carga, y se observará cómo Kubernetes crea y destruye contenedores en función de la carga de trabajo y el tráfico.
 
-(*) Utilizaremos Docker junto con Kubernetes. Docker es una plataforma de contenedores que permite empacar una aplicación y todas sus dependencias en una unidad estandarizada llamada contenedor. 
+(*) _Utilizaremos Docker junto con Kubernetes. Docker es una plataforma de contenedores que permite empacar una aplicación y todas sus dependencias en una unidad estandarizada llamada contenedor._ 
 
-(*) Kubernetes es una plataforma de orquestación de contenedores de código abierto que facilita la administración y escalado de aplicaciones en contenedores. Proporciona un entorno para desplegar, administrar y escalar aplicaciones de manera eficiente.
+(*) _Kubernetes es una plataforma de orquestación de contenedores de código abierto que facilita la administración y escalado de aplicaciones en contenedores. Proporciona un entorno para desplegar, administrar y escalar aplicaciones de manera eficiente._
 
-(*) - Características de Kubernetes: Escalado automático; Balanceo de carga; Alta disponibilidad; Gestión declarativa (infraestructura como código).
+_- Características de Kubernetes: Escalado automático; Balanceo de carga; Alta disponibilidad; Gestión declarativa (infraestructura como código)._
 
 ***
 
@@ -42,7 +42,7 @@ Una aplicación simple alojada en un clúster de Kubernetes en AWS que escala au
 - Crear una aplicación simple (API REST o servidor web) que devuelva información básica.
 - Escribir un Dockerfile para construir la imagen del contenedor de la aplicación.
  
-(*) Un Dockerfile es un archivo de texto que contiene instrucciones para construir una imagen de contenedor de manera automatizada.
+(*) _Un Dockerfile es un archivo de texto que contiene instrucciones para construir una imagen de contenedor de manera automatizada._
 
 **3**. Creación de un archivo de manifiesto de Kubernetes:
 
