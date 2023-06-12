@@ -11,14 +11,14 @@ Implementar y escalar automáticamente una aplicación simple utilizando Kuberne
   - Amazon RDS (Relational Database Service): para alojar una base de datos simple en caso de que la aplicación lo requiera.
   - AWS Load Balancer: para distribuir el tráfico entre las instancias de la aplicación.
 
-**Archivos y código a crear:**
+**Archivos:**
 
   - Aplicación simple: una API REST básica o un servidor web que devuelva información básica.
   - Dockerfile: para crear la imagen del contenedor de la aplicación.
   - Archivo de manifiesto de Kubernetes: para describir los recursos necesarios, como despliegues, servicios y configuraciones de escalado automático.
   - Scripts de AWS CLI o CloudFormation (opcional): para automatizar la creación y configuración de recursos de AWS.
 
-**Resultado esperado:**
+**Resultado:**
 
 Una aplicación simple alojada en un clúster de Kubernetes en AWS que escala automáticamente en función del tráfico y la carga de trabajo. La aplicación estará accesible a través de un balanceador de carga, y se observará cómo Kubernetes crea y destruye contenedores en función de la carga de trabajo y el tráfico.
 
