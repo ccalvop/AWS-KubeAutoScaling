@@ -4,6 +4,8 @@
 
 Implementar y escalar automáticamente una aplicación simple utilizando Kubernetes en AWS, demostrando cómo Kubernetes crea y destruye contenedores en función de la carga de trabajo y el tráfico.
 
+_AWS-KubeAutoScaling utilizará Docker para empaquetar una aplicación en un contenedor, y Kubernetes para desplegar, administrar y escalar automáticamente esos contenedores en un clúster de AWS_
+
 **Servicios de AWS involucrados:**
 
   - Amazon EKS (Elastic Kubernetes Service): para crear y gestionar el clúster de Kubernetes.
