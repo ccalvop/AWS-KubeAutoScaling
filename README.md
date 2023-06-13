@@ -72,12 +72,24 @@ Primero, necesitamos crear un role especifico: IAM > roles > create: EKS >  EKS 
 
 ![1 01_iam_role](https://github.com/ccalvop/AWS-KubeAutoScaling/assets/126183973/b770203d-e8b4-4af8-afe7-55003ce8fbe3)
 
-Ya podemos crear el cluster Kubernetes: en la consola de AWS > Amazon EKS: "Create cluster"
+Ya podemos crear el cluster de Kubernetes: en la consola de AWS > Amazon EKS: "Create cluster"
 
 ![1 0_eks](https://github.com/ccalvop/AWS-KubeAutoScaling/assets/126183973/5f2da40f-50d3-469a-b0cf-f3f60b690519)
 ![1 02_eks_create](https://github.com/ccalvop/AWS-KubeAutoScaling/assets/126183973/6e766b64-e3fa-4141-93fa-cc7a0e27e223)
 
-Cluster Kubernetes creado:
+Tras varios minutos...Cluster Kubernetes creado!
+
+![1 03_eks_created](https://github.com/ccalvop/AWS-KubeAutoScaling/assets/126183973/3fe72eee-7b62-4ff2-922e-01600fb0075f)
+
+Ahora crearemo unodos: entramos en el cluster creado > Compute y en Node groups "Add node group"
+
+Necesitamos un nuevo role con los siguientes permisos:
+
+![1 04_role_node](https://github.com/ccalvop/AWS-KubeAutoScaling/assets/126183973/dea520d5-5c1d-45f9-9c45-cb0aa9978429)
+
+![1 05_node](https://github.com/ccalvop/AWS-KubeAutoScaling/assets/126183973/1652c81a-1413-4f01-aa07-f215a6431007)
+
+
 
 
 ***
