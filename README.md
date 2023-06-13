@@ -81,14 +81,17 @@ Tras varios minutos...Cluster Kubernetes creado!
 
 ![1 03_eks_created](https://github.com/ccalvop/AWS-KubeAutoScaling/assets/126183973/3fe72eee-7b62-4ff2-922e-01600fb0075f)
 
-Ahora crearemo unodos: entramos en el cluster creado > Compute y en Node groups "Add node group"
+Ahora crearemos un grupo de nodos unidos al cluster: entramos en el cluster creado > Compute y en Node groups "Add node group"
 
 Necesitamos un nuevo role con los siguientes permisos:
 
 ![1 04_role_node](https://github.com/ccalvop/AWS-KubeAutoScaling/assets/126183973/dea520d5-5c1d-45f9-9c45-cb0aa9978429)
 
+Podemos crear el Node groups
+
 ![1 05_node](https://github.com/ccalvop/AWS-KubeAutoScaling/assets/126183973/1652c81a-1413-4f01-aa07-f215a6431007)
 
+![1 06_node](https://github.com/ccalvop/AWS-KubeAutoScaling/assets/126183973/0b31f61c-abab-4875-8f52-2ae8606d1f8b)
 
 
 
