@@ -64,6 +64,20 @@ _- Características de Kubernetes: Escalado automático; Balanceo de carga; Alta
 
 - Generar tráfico y carga de trabajo en la aplicación para observar cómo Kubernetes crea y destruye contenedores según sea necesario.
 
+***
+
+## 1. Creación de un clúster de Kubernetes en Amazon EKS
+
+Primero, necesitamos crear un role especifico: IAM > roles > create: EKS >  EKS - Cluster
+
+![1 01_iam_role](https://github.com/ccalvop/AWS-KubeAutoScaling/assets/126183973/b770203d-e8b4-4af8-afe7-55003ce8fbe3)
+
+Ya podemos crear el cluster Kubernetes: en la consola de AWS > Amazon EKS: "Create cluster"
+
+![1 0_eks](https://github.com/ccalvop/AWS-KubeAutoScaling/assets/126183973/5f2da40f-50d3-469a-b0cf-f3f60b690519)
+![1 02_eks_create](https://github.com/ccalvop/AWS-KubeAutoScaling/assets/126183973/6e766b64-e3fa-4141-93fa-cc7a0e27e223)
+
+Cluster Kubernetes creado:
 
 
 ***
