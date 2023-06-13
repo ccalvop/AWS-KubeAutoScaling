@@ -36,8 +36,8 @@ _- Características de Kubernetes: Escalado automático; Balanceo de carga; Alta
 
 **1**. Creación de un clúster de Kubernetes en Amazon EKS:
 
-- Crear un clúster de Amazon EKS en la consola de AWS.
-- Configurar la línea de comandos de Kubernetes (kubectl) para conectarse al clúster.
+- Crear un clúster y sus nodos en Amazon EKS mediante consola AWS.
+- Conectarse al clúster mediante CloudShell CLI.
 
 **2**. Desarrollo de la aplicación:
 
