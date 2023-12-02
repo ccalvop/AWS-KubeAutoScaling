@@ -97,5 +97,3 @@ Podemos crear el Node groups
 
 ***
 ![underconstruction_ccalvop](https://user-images.githubusercontent.com/126183973/234037995-bbe36371-8cc2-47a6-9c4f-b2311c57018d.jpg)
-
-TIME - 2023-12-02 16:06:15
